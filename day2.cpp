@@ -69,6 +69,7 @@ int main()
             depth -= command.units;         
     }
 
+    PRINT("---Part 1---")
     PRINT("horizontal: " << horizontal)
     PRINT("depth: " << depth)
     PRINT("multiplication " << depth * horizontal)  
@@ -90,7 +91,8 @@ int main()
         else
             aim -= command.units;         
     }
-
+    
+    PRINT("\n---Part 2---")
     PRINT("horizontal: " << horizontal)
     PRINT("depth: " << depth)
     PRINT("multiplication " << depth * horizontal)  
