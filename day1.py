@@ -1,5 +1,5 @@
 # Part 1
-with open('day1-inputs.dat', 'r') as file:
+with open('inputs/day1.dat', 'r') as file:
     inputs = [int(line) for line in file]
 
 count = 0

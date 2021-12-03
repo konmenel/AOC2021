@@ -41,7 +41,7 @@ vector<Command> parse_inputs()
 
     // Parsing
     string line;
-    ifstream file("day2-inputs.dat");
+    ifstream file("inputs/day2.dat");
     while (std::getline(file, line))
     {
         commands.push_back(Command(line));
