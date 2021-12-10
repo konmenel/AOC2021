@@ -9,12 +9,13 @@ using std::endl;
 using std::vector;
 using std::string;
 
-
 typedef void input_t;
 
+#define INPUT_FILE "inputs/dayx.dat"
 
 input_t parse_inputs()
 {
+    std::ifstream file(INPUT_FILE);
 
     return;
 }
