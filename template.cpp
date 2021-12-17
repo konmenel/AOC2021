@@ -3,7 +3,6 @@
 #include <vector>
 #include <string>
 
-
 using std::cout;
 using std::endl;
 using std::vector;
@@ -12,6 +11,7 @@ using std::string;
 typedef void input_t;
 
 #define INPUT_FILE "inputs/dayx.dat"
+
 
 input_t parse_inputs()
 {
